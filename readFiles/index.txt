@@ -1,1 +1,0 @@
-This is content within a simple text file.

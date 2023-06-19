@@ -1,10 +1,11 @@
 {
-  "name": "assignment-1",
+  "name": "assignment-2",
   "version": "1.0.0",
   "description": "",
-  "main": "http-server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ahmednabeelbutt/node_js_training/issues"
   },
-  "homepage": "https://github.com/ahmednabeelbutt/node_js_training#readme"
+  "homepage": "https://github.com/ahmednabeelbutt/node_js_training#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  }
 }
