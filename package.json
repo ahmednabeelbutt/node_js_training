@@ -1,24 +1,21 @@
 {
-  "name": "assignment-2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "assignment-1",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ahmednabeelbutt/node_js_training.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ahmednabeelbutt/node_js_training/issues"
-  },
-  "homepage": "https://github.com/ahmednabeelbutt/node_js_training#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.0"
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-validator": "^7.0.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1",
+    "morgan": "~1.9.1",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22"
   }
 }
