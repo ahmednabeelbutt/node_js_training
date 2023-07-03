@@ -47,7 +47,7 @@ router.post("/add", authenticateUser, checkAdmin, validateRequestBody, async (re
 });
 
 // Retrieve all products
-router.get('/', authenticateUser, checkAdmin, async (req, res) => {
+router.get('/', async (req, res) => {
     try {
       const products = await Product.find();
       res.send(products);

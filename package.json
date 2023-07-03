@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www",
+    "lint": "eslint ."
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
@@ -17,5 +18,10 @@
     "morgan": "~1.9.1",
     "nodemailer": "^6.9.3",
     "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
   }
 }
